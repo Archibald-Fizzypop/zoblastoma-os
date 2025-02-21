@@ -6,10 +6,6 @@ base-image: ghcr.io/ublue-os/bluefin-dx
 image-version: stable
 
 modules:
-  - type: files
-    files:
-      - source: system
-        destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
   - type: rpm-ostree
     repos:
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
