@@ -15,8 +15,8 @@ modules:
       - mullvad-vpn
       - mullvad-browser
   - type: script
-    snippets:
-      - "echo 'This is a script from the SNIPPET'"
     scripts:
       - example.sh
+    snippets:
+      - "echo 'snippets commands run after the scripts section'"
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
