@@ -16,7 +16,7 @@ modules:
       - mullvad-browser
   - type: script
     snippets:
-      - "echo 'This is an example shell script'"
-    # scripts:
-      # - myscript.sh # example: run config/scripts/myscript.sh
+      - "echo 'This is a script from the SNIPPET'"
+    scripts:
+      - example.sh
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
