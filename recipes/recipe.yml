@@ -15,6 +15,9 @@ modules:
       - mullvad-vpn
       - mullvad-browser
       - syncthing
+      - https://mega.nz/linux/repo/Fedora_41/x86_64/megasync-Fedora_41.x86_64.rpm
+      - https://mega.nz/linux/repo/Fedora_41/x86_64/nautilus-megasync-Fedora_41.x86_64.rpm
+      - https://cdn.filen.io/@filen/desktop/release/latest/Filen_linux_x86_64.rpm
   - type: script
     scripts:
       - example.sh
