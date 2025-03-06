@@ -9,6 +9,8 @@ modules:
   - type: rpm-ostree
     repos:
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
+    keys:
+      - https://github.com/evilsocket/opensnitch/releases/download/v1.6.8/gustavo_iniguez_goia.asc
     optfix:
       - Mullvad VPN
       - megasync
@@ -20,6 +22,8 @@ modules:
       - https://mega.nz/linux/repo/Fedora_41/x86_64/megasync-Fedora_41.x86_64.rpm
       - https://mega.nz/linux/repo/Fedora_41/x86_64/nautilus-megasync-Fedora_41.x86_64.rpm
       - https://cdn.filen.io/@filen/desktop/release/latest/Filen_linux_x86_64.rpm
+      - https://github.com/evilsocket/opensnitch/releases/download/v1.6.6/opensnitch-1.6.6-1.x86_64.rpm
+      - https://github.com/evilsocket/opensnitch/releases/download/v1.6.8/opensnitch-ui-1.6.8-1.noarch.rpm
   - type: script
     scripts:
       - example.sh
