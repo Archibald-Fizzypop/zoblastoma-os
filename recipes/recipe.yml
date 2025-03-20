@@ -8,16 +8,20 @@ image-version: stable
 modules:
   - type: rpm-ostree
     repos:
+      - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
       - https://repository.mullvad.net/rpm/stable/mullvad.repo
     keys:
+      - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
       - https://github.com/evilsocket/opensnitch/releases/download/v1.6.8/gustavo_iniguez_goia.asc
     optfix:
       - Mullvad VPN
+      - brave.com
       - megasync
       - Filen
     install:
       - mullvad-vpn
       - mullvad-browser
+      - brave-browser
       - syncthing
       - https://mega.nz/linux/repo/Fedora_41/x86_64/megasync-Fedora_41.x86_64.rpm
       - https://mega.nz/linux/repo/Fedora_41/x86_64/nautilus-megasync-Fedora_41.x86_64.rpm
