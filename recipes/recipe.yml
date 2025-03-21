@@ -18,6 +18,7 @@ modules:
       - brave.com
       - megasync
       - Filen
+      - FreeTube
     install:
       - mullvad-vpn
       - mullvad-browser
