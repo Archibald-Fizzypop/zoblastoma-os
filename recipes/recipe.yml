@@ -3,7 +3,7 @@ name: zoblastoma-os
 description: This is my personal OS image.
 
 base-image: ghcr.io/ublue-os/bluefin-dx
-image-version: stable
+image-version: gts
 
 modules:
   - type: rpm-ostree
